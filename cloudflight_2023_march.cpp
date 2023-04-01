@@ -114,7 +114,7 @@ void stage_three(FILE* path, FILE* output) {
 }
 
 int main() {
-    FILE* path = fopen("/home/rares/Documents/C/LearningC/SDA/Cloudflight/Cloudflight_martie_2023/cmake-build-debug/input.txt", "r");
+    FILE* path = fopen("input.txt", "r");
     FILE* output = fopen("output.txt", "w+");
 
     stage_three(path, output);
